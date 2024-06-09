@@ -103,8 +103,8 @@ app.get("/translation", async (req, res) => {
   return res.json(words);
 });
 
-app.listen(3000, async () => {
-  console.log("Server started on port 3000");
+app.listen(5000, async () => {
+  console.log("Server started on port 5000");
 
   await connectMongoDB();
   await connectPinecone();
