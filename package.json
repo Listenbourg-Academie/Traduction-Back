@@ -1,0 +1,19 @@
+{
+  "name": "traduction-back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@pinecone-database/pinecone": "2.2.2",
+    "axios": "1.7.2",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "mongodb": "6.7.0",
+    "uuid": "^10.0.0"
+  }
+}
