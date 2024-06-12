@@ -15,7 +15,7 @@ async function wordExists(word) {
   const collection = db.collection("words");
 
   const result = await collection.findOne({
-    word: { $regex: new RegExp(word, "i") },
+    word: word,
   });
 
   if (result) {
